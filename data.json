@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "Virtual Reailty Programmer",
+      "emoji": "",
+      "tags": ["job", "project"],
+      "description": "Using the Unity engine and C# programming language to develop a virtual reality setting to explore stereotypes in interracial interactions as part of social psychology research.",
+      "featured": true,
+      "extendedDescription": "Using the Unity engine and C# programming language to develop a virtual reality setting to explore stereotypes in interracial interactions as part of social psychology research.",
+      "featureImage": "./img/SSILab3.png",
+      "url":"https://wordpress.lehigh.edu/ssilab/"
+    },
+    {
+      "name": "Lead Instructor @ iD Tech",
+      "emoji": "📖",
+      "tags": ["job", "leadership"],
+      "description": "Virtually taught children and teenagers object oriented programing through game design and development.",
+      "featured": false,
+      "featureImage": "./img/id-tech.png"
+    },
+    {
+      "name": "Business Strategy and Data Science Extern @ Ekimetrics",
+      "emoji": "📈",
+      "tags": ["job"],
+      "description": "Received hands on training in Data Science and strategy consulting \nPresented Capstone Project to panel of Senior Managers."
+    }
+  ]
+}

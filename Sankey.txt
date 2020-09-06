@@ -1,0 +1,32 @@
+' Type a list of Flows, like this:
+'     SOURCE [AMOUNT] TARGET
+' Examples:
+CS [3] College
+CS [20] CS Requirement
+CS Requirement[20] Undergraduate Degree
+Business [1] Business Requirement
+Business [1.5] HSS Requirement
+Economics [4] Business Requirement
+Economics [3] Math Requirement
+Accounting [6] Business Requirement
+Marketing [3] Business Requirement
+Management [3] Business Requirement
+Supply Chain Mgt. [3] Business Requirement
+Math [11] Math Requirement
+Math Requirement [14] Undergraduate Degree
+EES [4] Science Requirement 
+Science Requirement [4] Undergraduate Degree
+English [3] HSS Requirement
+Theatre [2] HSS Requirement
+Business Requirement [20] Undergraduate Degree
+HSS Requirement [6.5] Undergraduate Degree
+Undergraduate Degree [64.5] College 
+
+
+
+' After your Flows are entered, use the
+' controls below to customize your
+' diagram's appearance.
+
+' For even finer control over the presentation,
+' see the Manual (linked above).

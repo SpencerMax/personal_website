@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Standard Metadata -->
+    <title>Spencer Lander</title>
+    <meta name="description" content="Spencer Lander's personal website">
+    <meta name="keywords" content="open source, developer, coding">
+    <link rel="icon" href="./favicon.ico">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Spencer Lander" />
+    <meta property="og:description" content="Spencer Lander's personal website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://spencerlander.com" />
+    <meta property="og:image" content="https://spencerlander.com/img/code.jpg" />
+    
+
+    <!-- import CSS -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
+    <!-- import JS -->
+    <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <header class="header">
+        <a href="#"><img id="logo" src="./img/logo.png"/><img id="logoicon" src="./img/logoicon.png"/></a>
+        <div>
+          <!-- <a href="#" class="fa fa-globe"></a> -->
+          <a href="#contact" class="fa fa-globe"></a>
+          <a href="https://www.linkedin.com/in/spencer-lander/" class="fa fa-linkedin"></a>
+          <a href="https://github.com/SpencerMax" class="fa fa-github"></a>
+          <!-- <a href="#" class="fa fa-search search-icon" @click.prevent="openSearch"></a> -->
+        </div>
+      </header>
+
+      
+
+      <section class="full-width-section cover" id="hero">
+        <div class="container">
+          <div>
+            <img style="width: 25%; height: auto;" src="img/circle-cropped.png">
+            <h2>
+              Applying computer science to real-world applications
+            </h2>
+          </div>
+
+          <div>
+            <p>
+              Technology is reshaping business. I want to be part of this change by exploring and applying the latest technology to real-world business applications.
+            </p>
+            <p>
+              I'm a student at Lehigh University studying computer science, business, and earth and enviromental science, and am interested in internship opportunities in business and technology.
+            </p>
+            <a href="#contribute" class="button-primary">
+              <i class="fa fa-file-pdf"></i>
+              Resume
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured">
+        <div class="container">
+          <h1>
+            Featured Projects
+          </h1>
+          <div class="projects-container">
+            <a v-bind:style="{ 'background-image': 'url(' + p.featureImage + ')' }" v-bind:href="repoUrl(p)" class="project project-featured" v-for="p in featuredProjects">
+              <h3 class="title">
+                <span class="emoji">{{ p.emoji }}</span>
+                {{ p.name }}
+              </h3>
+              <p>
+                {{ p.extendedDescription }}
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="Experience" class="full-width-section background-blue">
+        <div class="container">
+          <h1>
+            EXPERIENCE
+          </h1>
+          <p>
+            Relevent experience in the fields of business and technology.
+          </p>
+          <div class="projects-container">
+          <a v-bind:style="{ 'background-image': 'url(' + p.featureImage + ')' }" class="project project-featured" v-for="p in projectsWithTag('job')">
+            <div>
+              <h3 class="title">
+                <span class="emoji">{{ p.emoji }}</span>
+                {{ p.name }}
+              </h3>
+              <p v-html="p.description"></p>    
+            </div>
+          </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Education" class="full-width-section background-grey">
+        <div class="container">
+          <h1>
+            EDUCATION
+          </h1>
+          <div id="textbox">
+            <h2 style="text-align: left; width:49%; display: inline-block;">LEHIGH UNIVERSITY</h2>
+            <h2 style="text-align: right; width:50%;  display: inline-block;">Aug. 2019 - May 2023</h2>
+          </div>
+          <img style="width: 100%; height: auto;"src="img/sankey4.png" alt="Sankey Diagram">
+          <h3 style="text-align: center;">Snapshot as of fall 2020</h3>
+          <h2>
+            BACHELOR OF SCIENCE
+          </h2>
+          <h3>
+            Major:
+          </h3>
+          <a style="margin: 0" class="button-primary tooltip">Computer Science and Business<span class="tooltiptext">The Computer Science & Business program is a special program at Lehigh that is both ABET and AACSB accredited, meaning it is a full computer science and full business degree. I learn everything a computer science student learns, everything a business major learns, and how these disciplines interact in the modern world.</span></a>
+          <h4>
+            Minor: 
+          </h4>
+          <a style="margin: 0" class="button-primary tooltip" >Earth and Enviromental Science<span class="tooltiptext">Matters of environmental quality and natural resources will increasingly impact people and society in the years to come. I've studied geology and conservation ecology as components of an integrated Earth system to educate myself and improve my impact on the world.</span></a>
+          <h4>
+          Relevent Courses:
+          </h4>
+          <ul id="class-list" class="list-inline" style>
+            <div class="display_classes">
+              <li style="margin-bottom: 1; margin-top: 0;" class="button-primary tooltip" >CSE 109 - Systems Software<span class="tooltiptext">Advanced programming and data structures, including dynamic structures, memory allocation, data organization, symbol tables, hash tables, B-trees, data files. Object-oriented design and implementation of simple assemblers, loaders, interpreters, compilers, and translators.</span></li>
+              <li style="margin-bottom: 1; margin-top: 0;" class="button-primary tooltip" >CSE 216 - Software Engineering<span class="tooltiptext">The software lifecycle; lifecycle models; software planning; testing; specification methods; maintenance. Emphasis on team work and large-scale software systems, including oral presentations and written reports.</span></li>
+              <li style="margin: 0" class="button-primary tooltip" >CSE 341 - Database Systems, Algorithms, and Applications<span class="tooltiptext">Design of large databases; normalization; query languages (including SQL); Transaction-processing protocols; Query optimization; performance tuning; distributed systems.</span></li>
+            </div>
+          </ul>
+        </div>
+      </section>
+
+      <section class="full-width-section background-blue" id="skills">
+        <div class="container">
+          <h1>
+            TECHNICAL SKILLS
+          </h1>
+          <h2>PROGRAMMING LANGUAGES & TOOLS</h2>
+          <ul id="skill-list" class="list-inline">
+            <div class="display_skills">
+              <li class="list-inline-item tooltip devicon-python-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">Python</span></li>
+              <li class="list-inline-item tooltip devicon-java-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">Java</span></li>
+              <li class="list-inline-item tooltip devicon-javascript-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">JavaScript</span></li>
+              <li class="list-inline-item tooltip devicon-rust-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">Rust</span></li>
+              <li class="list-inline-item tooltip devicon-cplusplus-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">C++</span></li>
+              <li class="list-inline-item tooltip devicon-csharp-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">C#</span></li>
+              <li class="list-inline-item tooltip devicon-c-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">C</span></li>
+            </div>
+          </ul>
+          <h2>DEVELOPMENT TOOLS</h2>
+          <ul id="skill-list" class="list-inline">
+            <div class="display_skills">
+              <li class="list-inline-item tooltip devicon-git-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">Git</span></li>
+              <li class="list-inline-item tooltip devicon-amazonwebservices-original fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">Amazon Web Services</span></li>
+              <li class="list-inline-item tooltip devicon-visualstudio-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">Visual Studio</span></li>
+              <li class="list-inline-item tooltip fab fa-unity fa-5x" style="position: relative; top:-5px;"><span class="tooltiptext" style="width: 120px; margin-left: -60px; font-weight: bold; font-size: 18px;">Unity</span></li>
+            </div>
+          </ul>
+        <h2>DATABASE TECHNOLOGIES</h2>
+        <ul id="skill-list" class="list-inline">
+          <div class="display_skills">
+            <li class="list-inline-item tooltip devicon-oracle-original fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">OracleDB</span></li>
+            <li class="list-inline-item tooltip devicon-mongodb-plain fa-5x"><span class="tooltiptext" style="width: 100px; margin-left: -50px; font-weight: bold; font-size: 18px;">MongoDB</span></li>
+          </div>
+        </ul>
+      </section>
+
+      <section class="full-width-section" id="contact">
+        <div class="container">
+          <h1>
+            CONTACT ME
+          </h1>
+          <p>Whether reaching out about career opportunities or just saying hello.</p>
+          <a href="mailto:sml223@lehigh.edu"><h3>sml223@lehigh.edu</h3></a>
+          <a><h3>(201)-788-7686</h3></a>
+        </div>
+      </section>
+
+    </div>
+  </body>
+</html>
