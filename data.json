@@ -11,6 +11,15 @@
       "url":"https://wordpress.lehigh.edu/ssilab/"
     },
     {
+      "name": "Marketing and Web Design Intern @ High Expectations Marketing",
+      "emoji": "",
+      "tags": ["job"],
+      "description": "Developed websites with research and e-commerce platforms, conducted market research, and created marketing strategies for my client.",
+      "featured": false,
+      "featureImage": "./img/hxm.jpg",
+      "url":"http://www.highexpectationsmarketing.com/"
+    },
+    {
       "name": "Lead Instructor @ iD Tech",
       "emoji": "📖",
       "tags": ["job", "leadership"],
