@@ -1,0 +1,46 @@
+' Type a list of Flows, like this:
+'     SOURCE [AMOUNT] TARGET
+' Examples:
+Programming [10] Computer Science
+Low-Level Systems [9] Computer Science
+Software Engineering [9] Computer Science
+Database Design [3] Computer Science
+Algorithm Design [6] Computer Science
+Blockchain Applications [3] Computer Science
+Accounting Applications [3] Computer Science
+Capstone Project [3] Computer Science
+
+Business [1] Business Disciplines
+Business [3] Humanities
+Economics [7] Business Disciplines
+Economics [3] Math and Statistics
+Accounting [6] Business Disciplines
+Marketing [3] Business Disciplines
+Management [3] Business Disciplines
+Finance [3] Business Disciplines
+Law [3] Business Disciplines
+Supply Chain Mgt. [3] Business Disciplines
+
+Math [11] Math and Statistics
+
+EES [12] Natural Science 
+
+English [3] Humanities
+Theatre [2] Humanities
+Film [4] Humanities
+
+Computer Science[46] Undergraduate Degree
+Math and Statistics [14] Undergraduate Degree
+Natural Science [12] Undergraduate Degree
+Business Disciplines [29] Undergraduate Degree
+Humanities [12] Undergraduate Degree
+Undergraduate Degree [113] College
+
+
+
+' After your Flows are entered, use the
+' controls below to customize your
+' diagram's appearance.
+
+' For even finer control over the presentation,
+' see the Manual (linked above).
