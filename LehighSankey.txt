@@ -1,0 +1,40 @@
+Programming [10] Computer Science
+Low-Level Systems [9] Computer Science
+Software Engineering [9] Computer Science
+Database Design [3] Computer Science
+Algorithm Design [6] Computer Science
+Networking [3] Computer Science
+Blockchain Applications [3] Computer Science
+Accounting Applications [3] Computer Science
+Capstone Project [6] Computer Science
+Creative Inquiry Project [2] Computer Science
+
+Business [1] Business Disciplines
+Business [3] Humanities
+Economics [7] Business Disciplines
+Economics [3] Math and Statistics
+Accounting [6] Business Disciplines
+Marketing [3] Business Disciplines
+Management [6] Business Disciplines
+Finance [3] Business Disciplines
+Law [3] Business Disciplines
+Supply Chain Mgt. [3] Business Disciplines
+Negotiations [3] Business Disciplines
+
+
+
+English [3] Humanities
+Theatre [2] Humanities
+Film [8] Humanities
+History [4] Humanities
+Ethics [3] Humanities
+
+Math [11] Math and Statistics
+
+EES [16] Natural Science 
+
+Computer Science[54] Lehigh University
+Humanities [23] Lehigh University
+Math and Statistics [14] Lehigh University
+Natural Science [16] Lehigh University
+Business Disciplines [35] Lehigh University
