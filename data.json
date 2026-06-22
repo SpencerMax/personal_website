@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "name": "APM Infrastructure Analyst",
+      "emoji": "",
+      "tags": ["job", "edge"],
+      "description": "Lead all IT Infrastructure efforts for the integration of the Advanced Patient Monitoring business unit after it's acquisition from Edwards Lifesciences.",
+      "featured": true,
+      "extendedDescription": "Lead all IT Infrastructure efforts for the integration of the Advanced Patient Monitoring business unit after it's acquisition from Edwards Lifesciences.",
+      "featureImage": "./img/bd-logo.png",
+      "url":"https://news.bd.com/2024-09-03-BD-Completes-Acquisition-of-Critical-Care-from-Edwards-Lifesciences"
+    },
+    {
       "name": "Undergraduate Research Assistant",
       "emoji": "",
       "tags": ["job", "project"],
