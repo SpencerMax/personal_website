@@ -11,6 +11,24 @@
       "url":"https://news.bd.com/2024-09-03-BD-Completes-Acquisition-of-Critical-Care-from-Edwards-Lifesciences"
     },
     {
+      "name": "Penetration Testing Analyst",
+      "emoji": "",
+      "tags": ["job", "edge"],
+      "description": "Conducted thorough penetration testing and vulnerability assessments on BD's medical technology products in alignment with industry-recognized methodologies and frameworks including NIST SP 800-115, OWASP ASVS, OSSTMM, MITRE ATT&CK for ICS, and FDA Premarket & Postmarket Cybersecurity Guidance.",
+      "featured": true,
+      "extendedDescription": "Conducted thorough penetration testing and vulnerability assessments on BD's medical technology products in alignment with industry-recognized methodologies and frameworks including NIST SP 800-115, OWASP ASVS, OSSTMM, MITRE ATT&CK for ICS, and FDA Premarket & Postmarket Cybersecurity Guidance.",
+      "featureImage": "./img/bd-logo.png"
+    },
+    {
+      "name": "Privacy Technology Analyst",
+      "emoji": "",
+      "tags": ["job", "edge"],
+      "description": "Co-led the development and rollout of a global privacy risk management process for IT associates and conducted 150+ assessments of IT and OT systems for privacy applicability in multiple legal jurisdictions including GDPR, LDGP, and CCPA.",
+      "featured": true,
+      "extendedDescription": "Co-led the development and rollout of a global privacy risk management process for IT associates and conducted 150+ assessments of IT and OT systems for privacy applicability in multiple legal jurisdictions including GDPR, LDGP, and CCPA.",
+      "featureImage": "./img/bd-logo.png"
+    },
+    {
       "name": "Undergraduate Research Assistant",
       "emoji": "",
       "tags": ["job", "project"],
